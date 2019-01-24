@@ -22,7 +22,7 @@ module FormsLab
         Ship.new(ship)
       end
      
-      @courses = Course.all
+      @ships = Ship.all
       
       erb :"/pirates/show"
     end
@@ -30,14 +30,3 @@ module FormsLab
   end
 end
 
-post '/student' do
-  @student = Student.new(params[:student])
- 
-  params[:student][:courses].each do |details|
-    Course.new(details)
-  end
- 
-  @courses = Course.all
- 
-  erb :student
-end
