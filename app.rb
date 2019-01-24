@@ -5,7 +5,7 @@ module FormsLab
 
     # code other routes/actions here
     get '/' do
-      erb :index
+      erb :layout
     end
     
     get '/new' do
