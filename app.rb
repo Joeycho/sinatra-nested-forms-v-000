@@ -1,5 +1,5 @@
 require './environment'
-require_relative './views'
+require_relative './views/pirates/index'
 
 module FormsLab
   class App < Sinatra::Base
