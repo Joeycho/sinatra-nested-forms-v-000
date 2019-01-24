@@ -1,3 +1,3 @@
 require './app'
-require './views/pirates'
+require './views'
 run FormsLab::App
