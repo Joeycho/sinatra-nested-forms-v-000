@@ -3,7 +3,10 @@ class Pirate
   
   @@all = []
   
-  def initialize
+  def initialize(pirate)
+    @name = pirate[name]
+    @weight = pirate[weight]
+    @height =
     @@all << self
   end
   
