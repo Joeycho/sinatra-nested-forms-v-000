@@ -4,9 +4,9 @@ class Pirate
   @@all = []
   
   def initialize(pirate)
-    @name = pirate[name]
-    @weight = pirate[weight]
-    @height = pirate[height]
+    @name = pirate[:name]
+    @weight = pirate[:weight]
+    @height = pirate[:height]
     @@all << self
   end
   
