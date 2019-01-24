@@ -1,6 +1,6 @@
 require './environment'
 
-set :root 
+set :views, settings.root + '/pirates'
 
 module FormsLab
   class App < Sinatra::Base
