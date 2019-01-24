@@ -4,7 +4,10 @@ class Ship
   
   @@all = []
   
-  def initialize
+  def initialize (args)
+    @name = 
+    @type =
+    @booty =
     @@all << self
   end
   
