@@ -1,6 +1,6 @@
 require './environment'
 
-set 
+set :root 
 
 module FormsLab
   class App < Sinatra::Base
