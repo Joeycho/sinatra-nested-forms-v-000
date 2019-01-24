@@ -24,7 +24,7 @@ module FormsLab
      
       @ships = Ship.all
       
-      puts @pirate.to_s
+      puts @pirate.name
       puts @ships.to_s
       
       erb :"/pirates/show"
