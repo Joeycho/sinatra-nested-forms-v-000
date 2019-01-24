@@ -1,4 +1,5 @@
 require './environment'
+require './views'
 
 module FormsLab
   class App < Sinatra::Base
